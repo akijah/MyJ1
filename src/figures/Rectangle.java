@@ -1,5 +1,6 @@
 package figures;
 
+import java.awt.Color;
 import java.awt.Graphics;
 
 import javax.swing.*;
@@ -12,7 +13,8 @@ import javax.swing.*;
 	 
 	 public void paintComponent(Graphics g){
 		// super.paintComponent(g);
-		g.drawOval(X, Y, D, D); 
+		g.setColor(Color.RED);
+		 g.fillRect(X, Y, D, D); 
 	 }
 	 
 
